@@ -3,13 +3,13 @@
 This is a place holder for projects used in TSQL term 6 class.
 
 
-The request is to find the % of opt-ins/gross adds coming from the online channel by day pre and post BRM upgrade The BRM Upgrade went in Production on April 6th, 2018. Thus we chose from April 3rd to April 9th.
+The request is to find the % of opt-ins/gross adds coming from the online channel by day during April 3-9, 2018
 
 The business defines Opt in as follow:
 
 >
-> An opt-in is basically whenever an agent places an order in STARRS on a SelfPay plan, regardless of when the SelfPay Date occurs.
-> If the SelfPay starts today or if it is a follow-on plan, both are opt-ins
+> An opt-in is basically whenever an agent places an order, regardless of when it occurs.
+> If it starts today or if it starts in the future, both are opt-ins
 >
 
 The relationship with ActivationTag can be summerised as below:
